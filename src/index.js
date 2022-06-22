@@ -3,7 +3,6 @@ const { rsort } = require("semver");
 module.exports = function toReadable(number) {
     const num = parseInt(number);
     const str = String(number).split('');
-    const len = str.length;
 
     if (parseInt(number) === 0) {
         return 'zero';
